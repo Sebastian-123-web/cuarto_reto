@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: #262626;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+.header .navegacion, .banner{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+}
+.header .navegacion{
+    margin-top: 36px;
+    margin-bottom: 100px;
+}
+.header .navegacion .nav ul{
+    list-style: none;
+    display: flex;
+}
+.header .navegacion .nav ul li{
+    padding-left: 30px;
+}
+.header .navegacion .nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+.header .navegacion .nav ul li a:hover{
+    color: #00cf95;
+    border-bottom: 4px solid #00cf95;
+    padding-bottom: 8px;
+}
+.header .navegacion .nav ul li .active{
+    color: #832fda;
+    border-bottom: 4px solid #832fda;
+    padding-bottom: 8px;
+}
+.header .navegacion .nav ul li .active:hover{
+    color: #832fda;
+    border-bottom: 4px solid #832fda;
+}
+
+.header .banner .info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header .banner .info div h3,h2,h1{
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 13px;
+}
+.header .banner .info .descripcion p{
+    border-left: 4px solid #00cf95;
+    padding-left: 16px;
+}
+.text-color{
+    color: #00cf95;
+}
+
+.header .banner .info .archivos-redes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.header .banner .info .archivos-redes button{
+    background-color: #6D0AD3;
+    padding: 10px 40px;
+    border: none;
+    color: #EDE2FA;
+}
+.header .banner .info .archivos-redes div img{
+    margin-left: 15px;
+}
+
+.foto-perfil{
+    display: flex;
+    flex-direction: row;
+
+}
+.foto-perfil .fondo-perfil{
+    background-color: #d1ffa2;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.foto-perfil div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
