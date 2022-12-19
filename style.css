@@ -210,7 +210,7 @@
     justify-content: center;
 }
 .servicio-card{
-    width: 230px;
+    width: 300px;
     height: 230px;
     margin: 15px;
     background-color: #00cf95;
@@ -256,6 +256,9 @@
 }
 .blog-elementos img{
     border: 3px solid #d1ffa2;
+}
+.blog-elementos img:hover{
+    border: 3px solid #6D0AD3;
 }
 .blog-info{
     padding: 20px;
