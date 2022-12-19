@@ -215,13 +215,11 @@
 .servicio-card:hover{
     background-color: #00cf95;
     border: 3px solid #6D0AD3;
-    color: #fff;
 }
 .servicio-card img{
     position: absolute;
     top: 15px;
     left: 15px;
-
 }
 .servicio-card p{
     position: absolute;
@@ -232,4 +230,9 @@
     font-weight: 700;
     color: #6D0AD3;
     padding: 10px;
+}
+.servicio-card:hover p{
+    background-color: #6D0AD3;
+    border: 3px solid #6D0AD3;
+    color: #fff;
 }
