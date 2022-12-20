@@ -111,7 +111,6 @@
 }
 .header .banner .info .archivos-redes button:active{
     background-color: #5705aa;
-
 }
 .header .banner .info .archivos-redes div img{
     margin-left: 15px;
@@ -400,6 +399,12 @@
     color: #fff;
     border: none;
     border-radius: 8px;
+}
+.btn-enviar:hover{
+    background-color: #842eda;
+}
+.btn-enviar:active{
+    background-color: #5705aa;
 }
 
 /* ********** */
