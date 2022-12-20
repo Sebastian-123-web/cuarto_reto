@@ -104,6 +104,14 @@
     padding: 10px 40px;
     border: none;
     color: #EDE2FA;
+    cursor: pointer;
+}
+.header .banner .info .archivos-redes button:hover{
+    background-color: #842eda;
+}
+.header .banner .info .archivos-redes button:active{
+    background-color: #5705aa;
+
 }
 .header .banner .info .archivos-redes div img{
     margin-left: 15px;
@@ -441,8 +449,24 @@
         align-items: center;
         width: 100%;
     }
-    .banner .info{
+    .header .banner .info{
         width: 100%;
+        margin-bottom: 40px;
+    }
+    .header .banner .info .archivos-redes{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .header .banner .info .archivos-redes button{
+        background-color: #6D0AD3;
+        padding: 10px 40px;
+        border: none;
+        color: #EDE2FA;
+        cursor: pointer;
+    }
+    .redes-relacionadas{
+        margin-bottom: 15px;
     }
 
     /* MAIN */
