@@ -39,6 +39,9 @@
     list-style: none;
     display: flex;
 }
+.menu-burger{
+    display: none;
+}
 .nav ul li{
     padding-left: 30px;
     height: 25px;
@@ -448,6 +451,10 @@
 
 @media screen and (max-width: 600px){
 
+    .menu-burger{
+        display: flex;
+        font-size: 35px;
+    }
     .banner{
         display: flex;
         flex-direction: column;
